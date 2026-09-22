@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: 'Cite this dataset and the relevant source institutions separately.'
+type: dataset
+title: 'African Humanities Open Data Observatory — Discovery Dataset v0.3'
+version: '0.3'
+date-released: '2026-09-22'
+authors:
+  - name: AHODO contributors
+abstract: Provenance- and rights-aware item-level discovery records for African humanities and adjacent resources.

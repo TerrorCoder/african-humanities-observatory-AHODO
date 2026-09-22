@@ -1,0 +1,7 @@
+# Rights and provenance
+
+Rights attach to a particular resource or component. A catalogue metadata licence does not automatically apply to books, articles, scans, illustrations, audio, video, page software or linked files. In v0.3, **10,738** item records reference metadata whose licence is `not_established`; **800** reference CC0-1.0 components; **112** reference CC-BY-4.0 catalogue components. See each item’s `rights_assessment` and the public source manifest’s `resource_rights` and evidence URLs before reuse.
+
+Attribution structures preserve contributor/designated-party credit, source credit, licence notice/link, copyright notice and modification requirements where supplied. Do not infer obligations beyond the evidenced resource or applicable licence. Access permission is separate from copyright permission. The computational-reuse assessment distinguishes a copyright/licence basis for specified operations from source AI/ML statements, AI-specific restrictions, other rights and community governance. A licence basis supporting computational reuse is **not** blanket AI-training permission.
+
+All **11,650** public records report community-governance status `not_provided`. This is not evidence of unrestricted cultural use, participant consent or absence of Local Contexts TK/BC information. Public provenance identifies source and route without redistributing private acquisition requests or raw responses. AHODO records evidence and uncertainty; it does not grant rights beyond source conditions.

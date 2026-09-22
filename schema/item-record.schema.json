@@ -1,0 +1,182 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/TerrorCoder/african-humanities-observatory-AHODO/blob/main/schema/item-record.schema.json",
+  "title": "AHODO public discovery item v0.3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "parent_collection_id",
+    "source_id",
+    "authoritative_id",
+    "canonical_url",
+    "canonical_url_status",
+    "title",
+    "material_types",
+    "contributors",
+    "dates",
+    "languages",
+    "subject_geography",
+    "holding_institution",
+    "rights_reference",
+    "scope_classification",
+    "rights_assessment",
+    "community_governance",
+    "public_provenance"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "parent_collection_id": {
+      "type": "string"
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "authoritative_id": {
+      "type": "string"
+    },
+    "canonical_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "canonical_url_status": {
+      "enum": [
+        "established",
+        "not_established"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "material_types": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "contributors": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "dates": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]{3}$"
+      }
+    },
+    "subject_geography": {
+      "type": "object",
+      "required": [
+        "status",
+        "countries"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "not_reviewed",
+            "not_established",
+            "established",
+            "conflicting"
+          ]
+        },
+        "countries": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z]{3}$"
+          }
+        }
+      }
+    },
+    "holding_institution": {
+      "type": "object",
+      "required": [
+        "name",
+        "country"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$"
+        }
+      }
+    },
+    "rights_reference": {
+      "type": "object",
+      "required": [
+        "parent_collection_id",
+        "resource_id"
+      ]
+    },
+    "scope_classification": {
+      "enum": [
+        "core_humanities",
+        "humanities_adjacent",
+        "broader_social_science"
+      ]
+    },
+    "rights_assessment": {
+      "type": "object",
+      "required": [
+        "resource_id",
+        "resource_type",
+        "licence_status",
+        "licence",
+        "attribution",
+        "computational_reuse"
+      ]
+    },
+    "community_governance": {
+      "type": "object",
+      "required": [
+        "status"
+      ]
+    },
+    "public_provenance": {
+      "type": "object",
+      "required": [
+        "source_id",
+        "acquisition_method",
+        "retrieved_at"
+      ]
+    },
+    "licensed_catalogue_text": {
+      "type": "object"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "canonical_url": {
+            "type": "null"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "canonical_url_status": {
+            "const": "not_established"
+          }
+        }
+      }
+    }
+  ]
+}

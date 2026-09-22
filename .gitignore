@@ -1,0 +1,17 @@
+﻿__pycache__/
+*.py[cod]
+.env
+.env.*
+.DS_Store
+research/
+ingestion/
+pipeline/
+backend/
+frontend/
+config/
+registry/
+sources/
+migrations/
+scripts/
+data/
+tmp/

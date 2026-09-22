@@ -1,0 +1,170 @@
+{
+  "id": "AHODO-ITEM-00999876-8f50-5bef-97ed-1a2b4890127f",
+  "parent_collection_id": "AHODO-9786c8c0-f81e-4f0f-95e4-39b97cc80fde",
+  "source_id": "cleveland-open-access-africa",
+  "authoritative_id": "144709",
+  "canonical_url": "https://clevelandart.org/art/1969.5",
+  "canonical_url_status": "established",
+  "title": "Helmet",
+  "material_types": [
+    "Mask"
+  ],
+  "contributors": [],
+  "dates": [
+    {
+      "label": "source date",
+      "value": "late 1800s–early 1900s"
+    }
+  ],
+  "languages": [],
+  "subject_geography": {
+    "status": "not_established",
+    "countries": [],
+    "evidence_ids": [
+      "EV-00999876-8f50-5bef-97ed-1a2b4890127f"
+    ],
+    "notes": "No country assigned from broad African collection, culture, artist, title or place strings without a controlled item-country assertion."
+  },
+  "holding_institution": {
+    "id": "INST-CLEVELAND-MUSEUM-ART",
+    "name": "The Cleveland Museum of Art",
+    "country": "USA",
+    "homepage": "https://www.clevelandart.org/"
+  },
+  "rights_reference": {
+    "parent_collection_id": "AHODO-9786c8c0-f81e-4f0f-95e4-39b97cc80fde",
+    "resource_id": "catalogue-metadata"
+  },
+  "scope_classification": "core_humanities",
+  "rights_assessment": {
+    "resource_id": "catalogue-metadata",
+    "resource_type": "metadata",
+    "component": "Selected factual catalogue metadata returned by the documented API",
+    "licence_status": "recorded",
+    "licence": "CC0-1.0",
+    "licence_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "copyright_status": "public_domain",
+    "attribution": {
+      "copyright_notice": null,
+      "credits": [],
+      "disclaimer": {
+        "retain_if_supplied": null,
+        "text": null,
+        "url": null
+      },
+      "evidence_ids": [
+        "E-V02-CLEVELAND-REVIEW_1",
+        "E-V02-CLEVELAND-REVIEW_2",
+        "E-V02-CLEVELAND-REVIEW_3",
+        "E-V02-CLEVELAND-REVIEW_4",
+        "E-V02-CLEVELAND-API_BATCH"
+      ],
+      "licence_notice": "CC0 1.0",
+      "licence_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "modifications": {
+        "indicate_changes": null,
+        "notice": null,
+        "retain_previous_indications": null
+      },
+      "obligations": [],
+      "requirement": "not_required",
+      "source_credit": {
+        "name": "The Cleveland Museum of Art",
+        "url": "https://www.clevelandart.org/open-access"
+      },
+      "title": "Cleveland Museum of Art Open Access — Africa discovery subset"
+    },
+    "computational_reuse": {
+      "ai_specific_restrictions": {
+        "status": "not_found_in_reviewed_sources",
+        "details": [],
+        "evidence_ids": [
+          "E-V02-CLEVELAND-REVIEW_1",
+          "E-V02-CLEVELAND-REVIEW_2",
+          "E-V02-CLEVELAND-REVIEW_3",
+          "E-V02-CLEVELAND-REVIEW_4",
+          "E-V02-CLEVELAND-API_BATCH"
+        ],
+        "reviewed_sources": [
+          "https://www.clevelandart.org/open-access",
+          "https://openaccess-api.clevelandart.org/",
+          "https://www.clevelandart.org/terms-and-conditions"
+        ],
+        "reviewed_at": "2026-09-20T13:18:46.146861+00:00"
+      },
+      "copyright_licence_basis": {
+        "status": "supports_reuse_subject_to_licence_conditions",
+        "specified_operations": [
+          "reproduce licensed metadata for computational analysis"
+        ],
+        "licence_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence_ids": [
+          "E-V02-CLEVELAND-REVIEW_1",
+          "E-V02-CLEVELAND-REVIEW_2",
+          "E-V02-CLEVELAND-REVIEW_3",
+          "E-V02-CLEVELAND-REVIEW_4",
+          "E-V02-CLEVELAND-API_BATCH"
+        ],
+        "conditions": [
+          "Finding applies only to the selected API metadata; access, other rights and community governance remain separate."
+        ],
+        "rationale": "The first-party API documentation identifies the selected metadata as CC0. This is not a blanket statement that AI use is permitted."
+      },
+      "source_ai_ml_statements": {
+        "status": "not_addressed",
+        "kinds": [],
+        "evidence_ids": [
+          "E-V02-CLEVELAND-REVIEW_1",
+          "E-V02-CLEVELAND-REVIEW_2",
+          "E-V02-CLEVELAND-REVIEW_3",
+          "E-V02-CLEVELAND-REVIEW_4",
+          "E-V02-CLEVELAND-API_BATCH"
+        ],
+        "reviewed_sources": [
+          "https://www.clevelandart.org/open-access",
+          "https://openaccess-api.clevelandart.org/",
+          "https://www.clevelandart.org/terms-and-conditions"
+        ],
+        "reviewed_at": "2026-09-20T13:18:46.146861+00:00",
+        "notes": "No explicit AI/ML permission or restriction was identified in the reviewed first-party sources."
+      }
+    },
+    "other_rights": {
+      "status": "limitations_recorded",
+      "limitations": [
+        "CC0 metadata status does not clear media rights, privacy/publicity, cultural authority, sacred/sensitive status, or community governance."
+      ],
+      "evidence_ids": [
+        "E-V02-CLEVELAND-REVIEW_1",
+        "E-V02-CLEVELAND-REVIEW_2",
+        "E-V02-CLEVELAND-REVIEW_3",
+        "E-V02-CLEVELAND-REVIEW_4",
+        "E-V02-CLEVELAND-API_BATCH"
+      ]
+    },
+    "review": {
+      "status": "needs_review",
+      "method": "automated",
+      "reviewed_at": "2026-09-20T13:18:46.146861+00:00",
+      "reviewer": "AHODO formal automated source review"
+    },
+    "evidence_ids": [
+      "E-V02-CLEVELAND-REVIEW_1",
+      "E-V02-CLEVELAND-REVIEW_2",
+      "E-V02-CLEVELAND-REVIEW_3",
+      "E-V02-CLEVELAND-REVIEW_4",
+      "E-V02-CLEVELAND-API_BATCH"
+    ]
+  },
+  "community_governance": {
+    "status": "not_provided",
+    "notices": [],
+    "tk_labels": [],
+    "bc_labels": []
+  },
+  "public_provenance": {
+    "source_id": "cleveland-open-access-africa",
+    "acquisition_method": "official_api",
+    "retrieved_at": "2026-09-20T13:07:13.348230+00:00"
+  }
+}

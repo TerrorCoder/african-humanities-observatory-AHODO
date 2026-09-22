@@ -1,0 +1,3 @@
+﻿dataset/v0.3/*.jsonl -text
+dataset/v0.3/*.csv -text
+dataset/v0.3/*.json -text

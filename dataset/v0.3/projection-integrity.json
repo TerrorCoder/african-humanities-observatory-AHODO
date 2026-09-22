@@ -1,0 +1,61 @@
+{
+  "source_release": "AHODO audited v0.3",
+  "reason_for_public_projection": "Omitted exact acquisition requests, batch identifiers, private raw-capture paths and operational classification/verification fields while retaining audited discovery and rights values.",
+  "retained_fields": [
+    "id",
+    "parent_collection_id",
+    "source_id",
+    "authoritative_id",
+    "canonical_url",
+    "canonical_url_status",
+    "title",
+    "material_types",
+    "contributors",
+    "dates",
+    "languages",
+    "subject_geography",
+    "holding_institution",
+    "rights_reference",
+    "scope_classification",
+    "rights_assessment",
+    "community_governance",
+    "licensed_catalogue_text"
+  ],
+  "public_provenance_fields": [
+    "source_id",
+    "acquisition_method",
+    "retrieved_at"
+  ],
+  "removed_fields": [
+    "inclusion",
+    "scope_basis",
+    "scope_evidence",
+    "verification",
+    "provenance"
+  ],
+  "subsets": {
+    "complete": {
+      "records": 11650,
+      "audited_jsonl_sha256": "0df9ed080cdb42a790a838f93f608e0fa67717d32c1a129b8fc527d3bf59a475",
+      "public_jsonl_sha256": "cf624f7f0e0ecfddcb6115138e121605fd3b36ea8412ac48ba51bbfabd48915f",
+      "audited_csv_sha256": "ca01816c96cf54321aac6fc979b7c52bbedb2cddd66adabf2e5bae2dda3274c9",
+      "public_csv_sha256": "e3d3499bac7e482ce47356c796c7b7094d25b95ddbbd50f7a13735377bb5ed07"
+    },
+    "core-humanities": {
+      "records": 10398,
+      "audited_jsonl_sha256": "b81b4d2d636cd738e1a9c9ef1d46804785971b41c8b096428f9a7aa9cbd6307e",
+      "public_jsonl_sha256": "9618f88e020cf88cd9a066dda681f101592e3479266cdb25b8405b770152ec64",
+      "audited_csv_sha256": "c3a1d39ec39eba78090915fb403038bb31fad20b492a01124c3653fcfec33a74",
+      "public_csv_sha256": "edd11c8ed7617724f28d60104666251b21638f873eff68de189c60ee18e62ecb"
+    },
+    "humanities-plus-adjacent": {
+      "records": 11525,
+      "audited_jsonl_sha256": "3a00312431f9cfa446eb24674f7e0abffad156d7730239e2ba949195b9f06b60",
+      "public_jsonl_sha256": "36375e1cc8c97b506320489c03096d17c3d4898e6ed6fcfd77dfac570863ecb3",
+      "audited_csv_sha256": "29688b7c6f2ca62aa1b7e17d288f757bfce3af78bd2fd6771229533ac82f416a",
+      "public_csv_sha256": "d26ca6001c60a25ee421ae318cf8b2791643bcf3933ab55150433801ab806869"
+    }
+  },
+  "audited_statistics_sha256": "928fce7fe17aacf623bdda8d8a8b5aec4e2b587eddea1976ab4d7149ed6e5996",
+  "public_statistics_sha256": "928fce7fe17aacf623bdda8d8a8b5aec4e2b587eddea1976ab4d7149ed6e5996"
+}
