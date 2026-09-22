@@ -1,38 +1,14 @@
 {
   "source_release": "AHODO audited v0.3",
-  "reason_for_public_projection": "Omitted exact acquisition requests, batch identifiers, private raw-capture paths and operational classification/verification fields while retaining audited discovery and rights values.",
-  "retained_fields": [
-    "id",
-    "parent_collection_id",
-    "source_id",
-    "authoritative_id",
-    "canonical_url",
-    "canonical_url_status",
-    "title",
-    "material_types",
-    "contributors",
-    "dates",
-    "languages",
-    "subject_geography",
-    "holding_institution",
-    "rights_reference",
-    "scope_classification",
-    "rights_assessment",
-    "community_governance",
-    "licensed_catalogue_text"
+  "public_projection_records": 11650,
+  "description": "Curated public projection of the audited v0.3 release. Public discovery and resource-rights values were not substantively changed.",
+  "omitted_categories": [
+    "operational acquisition metadata",
+    "private raw-capture references",
+    "internal workflow and verification metadata"
   ],
-  "public_provenance_fields": [
-    "source_id",
-    "acquisition_method",
-    "retrieved_at"
-  ],
-  "removed_fields": [
-    "inclusion",
-    "scope_basis",
-    "scope_evidence",
-    "verification",
-    "provenance"
-  ],
+  "hash_note": "Public and audited export hashes differ because their representations differ; this does not indicate a change to retained discovery or resource-rights values.",
+  "statistics_consistent": true,
   "subsets": {
     "complete": {
       "records": 11650,

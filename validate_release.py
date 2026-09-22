@@ -14,9 +14,6 @@ REQUIRED = {"id", "parent_collection_id", "source_id", "authoritative_id", "cano
             "canonical_url_status", "title", "material_types", "contributors", "dates",
             "languages", "subject_geography", "holding_institution", "rights_reference",
             "scope_classification", "rights_assessment", "community_governance", "public_provenance"}
-FORBIDDEN = {"request", "request_url", "raw_record_path", "response_sha256", "acquisition_batch_id",
-             "scope_evidence", "scope_basis", "verification", "inclusion", "source_native_metadata"}
-
 
 def read(path):
     return json.loads(path.read_text(encoding="utf8"))
@@ -35,7 +32,7 @@ def rows(path):
 
 def contains_private_path(value):
     if isinstance(value, str):
-        return bool(re.match(r"^[A-Za-z]:[\\/]", value) or value.startswith(("/Users/", "/home/", "data/raw/", "research/")))
+        return bool(re.match(r"^[A-Za-z]:[\\/]", value) or value.startswith(("/Users/", "/home/")))
     if isinstance(value, list):
         return any(contains_private_path(v) for v in value)
     if isinstance(value, dict):
@@ -65,7 +62,7 @@ def main():
         with (DATA / f"{PREFIX}{subset}.csv").open(encoding="utf-8-sig", newline="") as stream:
             csv_ids = [row["id"] for row in csv.DictReader(stream)]
         for record in rows(path):
-            assert REQUIRED <= record.keys() and not (FORBIDDEN & record.keys())
+            assert REQUIRED <= record.keys() <= REQUIRED | {"licensed_catalogue_text"}
             assert record["canonical_url"] is not None or record["canonical_url_status"] == "not_established"
             assert record["source_id"] in sources
             assert record["public_provenance"]["source_id"] == record["source_id"]

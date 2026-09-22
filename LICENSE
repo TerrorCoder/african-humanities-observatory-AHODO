@@ -1,26 +1,31 @@
-MIT License
+# AHODO Public Repository Licensing Notice
 
-Copyright (c) 2026 AHODO contributors
+Copyright © 2026 AHODO contributors. All rights reserved, to the extent AHODO contributors hold the relevant copyright.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## 1. AHODO-authored materials
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+This notice applies to AHODO-authored code, documentation, public schema, original examples, and AHODO's original selection, organization, normalization and explanatory material to the extent protected by applicable law. It does not claim ownership of facts or material contributed by source institutions or other rights holders. AHODO may hold rights in its original compilation or arrangement where applicable law recognizes them; those rights do not override rights in individual source records.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## 2. Public dataset and source-derived metadata
 
-This licence covers project code and authored documentation only. It does not
-grant rights to third-party collections, source metadata, rights evidence or
-community-governance material, which retain their own applicable terms.
+The dataset combines AHODO-authored structure with source-derived information. This notice does not grant rights in third-party metadata or facts. Follow the resource-specific status, licence, attribution information and evidence recorded in each item and the public source manifest. Where a source metadata licence is `not_established`, AHODO grants no licence on the source institution's behalf.
 
+## 3. Third-party licensed components
+
+An identified CC0-1.0 or CC-BY-4.0 finding applies only to the assessed component and under its source evidence. This notice does not replace, narrow or expand those source terms. Observe attribution and change-indication requirements where applicable.
+
+## 4. Underlying works
+
+The dataset grants no rights in referenced books, articles, theses, artworks, photographs, manuscripts, recordings, archival documents, cultural materials or other underlying resources. Their applicable source and rights-holder terms remain separate.
+
+## 5. Research and educational use
+
+AHODO permits access to, downloading, reading and use of AHODO-authored public materials in this current repository for personal, educational and non-commercial research purposes. This permission does not override source licences, attribution obligations, community-governance information or rights in underlying works. Quotation and other uses allowed by applicable law remain unaffected.
+
+## 6. Commercial use
+
+Unless separately licensed, redistribution, republication, sublicensing, commercial exploitation or incorporation of AHODO-authored code, expression, documentation, schema or original arrangement into a commercial product or service requires prior permission from the relevant AHODO copyright holder(s). This restriction does not purport to control independent use of public facts, third-party CC0 material, independently obtained source metadata or material owned by others.
+
+## 7. No additional rights granted
+
+No permission, endorsement, cultural authority or clearance for AI training is implied beyond the rights expressly described here and in the resource-level evidence. This notice concerns the current and future versions of this curated public repository to the extent legally possible; it does not purport to withdraw permissions granted under earlier repository versions.

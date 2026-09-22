@@ -14,7 +14,7 @@
         {
           "id": "AHODO-a392b0fd-7237-442a-9e78-cf8574f8acda",
           "name": "African Minds Books",
-          "source_url": "https://www.africanminds.co.za/state-of-open-data/"
+          "source_url": "https://www.africanminds.co.za/books/"
         }
       ],
       "holding_country": "ZAF",
@@ -52,7 +52,7 @@
         {
           "id": "AHODO-7523bbbe-9734-4a61-bc6e-5dc0d0ed0e11",
           "name": "Art Institute of Chicago — Arts of Africa discovery subset",
-          "source_url": "https://api.artic.edu/api/v1/artworks/search?query%5Bterm%5D%5Bdepartment_title.keyword%5D=Arts%20of%20Africa&limit=100&page=1&fields=id,title,date_display,artist_display,place_of_origin,department_title,artwork_type_title,medium_display,api_link"
+          "source_url": "https://api.artic.edu/docs/"
         }
       ],
       "holding_country": "USA",
@@ -69,7 +69,6 @@
           "licence": "CC0-1.0",
           "licence_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
           "evidence_urls": [
-            "https://api.artic.edu/api/v1/artworks/search?query%5Bterm%5D%5Bdepartment_title.keyword%5D=Arts%20of%20Africa&limit=100&page=1&fields=id,title,date_display,artist_display,place_of_origin,department_title,artwork_type_title,medium_display,api_link",
             "https://api.artic.edu/docs/",
             "https://api.artic.edu/robots.txt",
             "https://www.artic.edu/terms"
@@ -153,7 +152,7 @@
         {
           "id": "AHODO-9786c8c0-f81e-4f0f-95e4-39b97cc80fde",
           "name": "Cleveland Museum of Art Open Access — Africa discovery subset",
-          "source_url": "https://openaccess-api.clevelandart.org/api/artworks/?q=Africa&limit=100&skip=0"
+          "source_url": "https://www.clevelandart.org/open-access"
         }
       ],
       "holding_country": "USA",
@@ -171,7 +170,6 @@
           "licence_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
           "evidence_urls": [
             "https://openaccess-api.clevelandart.org/",
-            "https://openaccess-api.clevelandart.org/api/artworks/?q=Africa&limit=100&skip=0",
             "https://openaccess-api.clevelandart.org/robots.txt",
             "https://www.clevelandart.org/open-access",
             "https://www.clevelandart.org/terms-and-conditions"
@@ -193,7 +191,7 @@
         {
           "id": "AHODO-93da0bdc-aec5-4e3b-9158-c3a8409ed4d8",
           "name": "The Metropolitan Museum of Art — African collection discovery subset",
-          "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/search?departmentId=5&q=Africa"
+          "source_url": "https://www.metmuseum.org/hubs/open-access"
         }
       ],
       "holding_country": "USA",
@@ -210,7 +208,6 @@
           "licence": "CC0-1.0",
           "licence_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
           "evidence_urls": [
-            "https://collectionapi.metmuseum.org/public/collection/v1/search?departmentId=5&q=Africa",
             "https://collectionapi.metmuseum.org/robots.txt",
             "https://metmuseum.github.io/",
             "https://www.metmuseum.org/hubs/open-access",
@@ -233,7 +230,7 @@
         {
           "id": "AHODO-04105ba9-05fc-491f-827c-eab5fbaa784a",
           "name": "North-West University humanities and indigenous-language OAI discovery sets",
-          "source_url": "https://repository.nwu.ac.za/server/oai/request?verb=ListRecords&metadataPrefix=oai_dc&set=com_10394_43281"
+          "source_url": "https://repository.nwu.ac.za/"
         }
       ],
       "holding_country": "ZAF",
@@ -251,8 +248,7 @@
           "licence_uri": null,
           "evidence_urls": [
             "https://repository.nwu.ac.za/robots.txt",
-            "https://repository.nwu.ac.za/server/oai/request?verb=Identify",
-            "https://repository.nwu.ac.za/server/oai/request?verb=ListRecords&metadataPrefix=oai_dc&set=com_10394_43281"
+            "https://repository.nwu.ac.za/server/oai/request?verb=Identify"
           ],
           "attribution_requirement": "not_established"
         }
@@ -271,7 +267,7 @@
         {
           "id": "AHODO-efca7166-80cc-44f3-9ed8-35722e3a5e18",
           "name": "Stellenbosch University humanities and African languages OAI discovery sets",
-          "source_url": "https://scholar.sun.ac.za/server/oai/request?verb=ListRecords&metadataPrefix=oai_dc&set=com_10019.1_39"
+          "source_url": "https://scholar.sun.ac.za/"
         }
       ],
       "holding_country": "ZAF",
@@ -289,8 +285,7 @@
           "licence_uri": null,
           "evidence_urls": [
             "https://scholar.sun.ac.za/robots.txt",
-            "https://scholar.sun.ac.za/server/oai/request?verb=Identify",
-            "https://scholar.sun.ac.za/server/oai/request?verb=ListRecords&metadataPrefix=oai_dc&set=com_10019.1_39"
+            "https://scholar.sun.ac.za/server/oai/request?verb=Identify"
           ],
           "attribution_requirement": "not_established"
         }
@@ -309,7 +304,7 @@
         {
           "id": "AHODO-1c277a64-7044-4b52-bfd0-6cdb196a2a66",
           "name": "University of Namibia humanities and language OAI discovery sets",
-          "source_url": "https://repository.unam.edu.na/server/oai/request?verb=ListRecords&metadataPrefix=oai_dc&set=com_11070_3317"
+          "source_url": "https://repository.unam.edu.na/"
         }
       ],
       "holding_country": "NAM",
@@ -327,8 +322,7 @@
           "licence_uri": null,
           "evidence_urls": [
             "https://repository.unam.edu.na/robots.txt",
-            "https://repository.unam.edu.na/server/oai/request?verb=Identify",
-            "https://repository.unam.edu.na/server/oai/request?verb=ListRecords&metadataPrefix=oai_dc&set=com_11070_3317"
+            "https://repository.unam.edu.na/server/oai/request?verb=Identify"
           ],
           "attribution_requirement": "not_established"
         }
@@ -347,7 +341,7 @@
         {
           "id": "AHODO-c1ed9bc0-0852-4b5e-87ba-7396813ba5dc",
           "name": "Unisa School of Arts and School of Humanities OAI discovery sets",
-          "source_url": "https://ir.unisa.ac.za/oai/request?verb=ListRecords&metadataPrefix=oai_dc&set=com_10500_172"
+          "source_url": "https://ir.unisa.ac.za/"
         }
       ],
       "holding_country": "ZAF",
@@ -365,8 +359,6 @@
           "licence_uri": null,
           "evidence_urls": [
             "https://ir.unisa.ac.za/oai/request?verb=Identify",
-            "https://ir.unisa.ac.za/oai/request?verb=ListRecords&metadataPrefix=oai_dc&set=com_10500_172",
-            "https://ir.unisa.ac.za/oai/request?verb=ListSets",
             "https://ir.unisa.ac.za/robots.txt",
             "https://unisa.ac.za/sites/corporate/default/About/Legislation/Terms-and-Conditions"
           ],
@@ -387,7 +379,7 @@
         {
           "id": "AHODO-f5e1f6ce-755a-478a-bd75-0ff8ad6f3092",
           "name": "University of Pretoria humanities OAI discovery sets",
-          "source_url": "https://repository.up.ac.za/server/oai/request?verb=ListRecords&metadataPrefix=oai_dc&set=com_2263_5631"
+          "source_url": "https://repository.up.ac.za/"
         }
       ],
       "holding_country": "ZAF",
@@ -405,8 +397,7 @@
           "licence_uri": null,
           "evidence_urls": [
             "https://repository.up.ac.za/robots.txt",
-            "https://repository.up.ac.za/server/oai/request?verb=Identify",
-            "https://repository.up.ac.za/server/oai/request?verb=ListRecords&metadataPrefix=oai_dc&set=com_2263_5631"
+            "https://repository.up.ac.za/server/oai/request?verb=Identify"
           ],
           "attribution_requirement": "not_established"
         }
@@ -425,7 +416,7 @@
         {
           "id": "AHODO-941db663-1a76-447d-9ffe-be1f83025a59",
           "name": "University of the Witwatersrand humanities OAI discovery sets",
-          "source_url": "https://wiredspace.wits.ac.za/server/oai/request?verb=ListRecords&metadataPrefix=oai_dc&set=com_10539_4474"
+          "source_url": "https://wiredspace.wits.ac.za/"
         }
       ],
       "holding_country": "ZAF",
@@ -443,8 +434,7 @@
           "licence_uri": null,
           "evidence_urls": [
             "https://wiredspace.wits.ac.za/robots.txt",
-            "https://wiredspace.wits.ac.za/server/oai/request?verb=Identify",
-            "https://wiredspace.wits.ac.za/server/oai/request?verb=ListRecords&metadataPrefix=oai_dc&set=com_10539_4474"
+            "https://wiredspace.wits.ac.za/server/oai/request?verb=Identify"
           ],
           "attribution_requirement": "not_established"
         }
@@ -463,7 +453,7 @@
         {
           "id": "AHODO-c47ca646-aa2b-4fdc-be4b-1bdb6563ace4",
           "name": "Women's University in Africa WUASpace",
-          "source_url": "https://dspace.wua.ac.zw/server/api/core/communities?size=100"
+          "source_url": "https://dspace.wua.ac.zw/"
         }
       ],
       "holding_country": "ZWE",
