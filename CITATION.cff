@@ -3,9 +3,12 @@ message: 'Cite this dataset and the relevant source institutions separately.'
 type: dataset
 title: 'AHODO Discovery Dataset v0.3: African Humanities Resource Discovery and Rights Metadata'
 version: '0.3'
-date-released: '2026-09-22'
+date-released: '2026-09-25'
 authors:
-  - name: AHODO contributors
+  - family-names: Rwodzi
+    given-names: L. T.
+  - family-names: Gotosa
+    given-names: K.
 abstract: Provenance- and rights-aware item-level discovery records for African humanities and adjacent resources.
 doi: 10.5281/zenodo.22944185
 url: https://doi.org/10.5281/zenodo.22944185
