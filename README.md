@@ -2,6 +2,15 @@
 
 ## Open Dataset & Specification
 
+## Dataset release
+
+- **Current public release:** AHODO Discovery Dataset v0.3 (11,650 records)
+- **Dataset / DOI:** [10.5281/zenodo.22944185](https://doi.org/10.5281/zenodo.22944185)
+- **Interactive search:** [AHODO Search](https://ahodo.kairosgroup.co.zw/)
+- **Source repository:** [AHODO public GitHub repository](https://github.com/TerrorCoder/african-humanities-observatory-AHODO)
+
+The archived Zenodo release is the citable v0.3 snapshot. AHODO Search provides interactive discovery over the public dataset. The DOI does not change the rights of represented resources.
+
 AHODO is a provenance- and rights-aware discovery dataset for African humanities and humanities-adjacent resources. This repository contains the public **AHODO Discovery Dataset v0.3**, its public data specification, source attribution, rights/provenance documentation and release materials.
 
 The public dataset is a discovery registry, **not a corpus of the underlying works and not a representative sample** of African humanities.
@@ -14,6 +23,6 @@ AHODO uses layered rights. AHODO-authored public materials are available for per
 
 **10,738** records reference metadata whose licence is not established. Community-governance status `not_provided` is not permission or consent. No blanket AI-training clearance is asserted. Holding country, subject geography and language are recorded separately.
 
-Run `python validate_release.py` from this directory to verify checksums, JSONL/CSV alignment, counts, uniqueness and subset membership. The [projection-integrity manifest](dataset/v0.3/projection-integrity.json) records how these public files relate to the audited release. The curated JSONL/CSV differ byte-for-byte because private acquisition details were removed; substantive audited discovery and rights values were preserved. `dataset-statistics.json` and `CITATION.cff` are byte-identical copies of the audited release.
+Run `python validate_release.py` from this directory to verify checksums, JSONL/CSV alignment, counts, uniqueness and subset membership. The [projection-integrity manifest](dataset/v0.3/projection-integrity.json) records how these public files relate to the audited release. The curated JSONL/CSV differ byte-for-byte because private acquisition details were removed; substantive audited discovery and rights values were preserved. `dataset-statistics.json` is a byte-identical copy of the audited release. `CITATION.cff` now includes the published dataset DOI.
 
-Recommended citation: AHODO contributors. (2026). *African Humanities Open Data Observatory — Discovery Dataset v0.3* [Dataset]. Version v0.3. Cite the relevant source institution and resource separately. No DOI has been assigned. See [CITATION.cff](CITATION.cff).
+Recommended citation: AHODO contributors. (2026). *AHODO Discovery Dataset v0.3: African Humanities Resource Discovery and Rights Metadata* [Dataset]. Version 0.3. https://doi.org/10.5281/zenodo.22944185. Cite the relevant source institution and resource separately. Citation metadata is available in [CITATION.cff](CITATION.cff).

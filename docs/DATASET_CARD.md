@@ -8,4 +8,4 @@ Acquisition categories are **{'oai_pmh': 10497, 'controlled_http': 241, 'officia
 
 JSONL preserves repeatable/nested fields; CSV is a convenience index. The files are a public projection of the audited release: audited discovery and rights values remain unchanged, while exact acquisition requests, private raw paths and internal workflow fields are omitted. See [projection integrity](../dataset/v0.3/projection-integrity.json), [the dictionary](DATA_DICTIONARY.md), [rights](RIGHTS_AND_PROVENANCE.md), [limitations](KNOWN_LIMITATIONS.md) and [source manifest](SOURCE_MANIFEST.md).
 
-Recommended citation: AHODO contributors. (2026). *African Humanities Open Data Observatory — Discovery Dataset v0.3* [Dataset]. Version v0.3. Cite the relevant source institution and resource separately. No DOI has been assigned.
+Recommended citation: AHODO contributors. (2026). *AHODO Discovery Dataset v0.3: African Humanities Resource Discovery and Rights Metadata* [Dataset]. Version 0.3. https://doi.org/10.5281/zenodo.22944185. Cite the relevant source institution and resource separately.
